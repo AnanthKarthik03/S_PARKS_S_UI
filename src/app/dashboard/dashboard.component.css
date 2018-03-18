@@ -1,0 +1,20 @@
+.whitetext{
+    color: white;
+    cursor:pointer ;
+    font-size: 23px;
+    font-family: monospace;
+}
+
+.row{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main{
+    font-size: 35px;
+    color: white;
+    font-family: monospace;
+}
+a:hover { 
+    background-color: black !important;
+}
