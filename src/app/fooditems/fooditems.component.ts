@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fooditems.component.css']
 })
 export class FooditemsComponent implements OnInit {
-
+  
+  blocks: boolean=false;
+  radio: boolean=true;
   constructor() { }
 
   ngOnInit() {
@@ -14,4 +16,13 @@ export class FooditemsComponent implements OnInit {
     
   }
 
+  veg(){
+    this.radio=false
+    this.blocks=true
+  }
+  nonveg(){
+    
+    this.radio=false
+    this.blocks=true
+  }
 }

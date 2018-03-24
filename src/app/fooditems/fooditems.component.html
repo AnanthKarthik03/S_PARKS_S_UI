@@ -1,3 +1,89 @@
+<body>
+    <app-navebar>
+    </app-navebar>
+    <!-- <app-header></app-header> -->
+    <!-- <app-footer></app-footer> -->
+    <div class="bg"> 
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3"> 
+                </div>
+                <div class="col-sm-3" style="margin-top: 159px;"> 
+                    <div class="continput" *ngIf="radio" (click)="veg()">
+                        <ul>
+                            <li>
+                                <input checked type="radio" name="1">
+                                <label>Vegetarian</label>
+                                <div class="bullet">
+                                    <div class="line zero"></div>
+                                    <div class="line one"></div>
+                                    <div class="line two"></div>
+                                    <div class="line three"></div>
+                                    <div class="line four"></div>
+                                    <div class="line five"></div>
+                                    <div class="line six"></div>
+                                    <div class="line seven"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div> 
+                    <div class="do-item do-item-circle do-circle" *ngIf="blocks">
+                        <img src="../../assets/image/by_choice.jpg" class="do-item do-circle">
+                        <div class="do-info-wrap do-circle">
+                            <div class="do-info">
+                                <div class="do-info-front do-circle"></div>
+                                <div class="do-info-back do-circle">
+                                    <h3>By Choice</h3>
+                                    <div>Search
+                                        <br /> By Choice</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3" style="margin-top: 159px;">
+                    <div class="continput" *ngIf="radio" (click)="nonveg()">
+                        <ul>
+                            <li>
+                                <input type="radio" name="1">
+                                <label>Non-Veg</label>
+                                <div class="bullet">
+                                    <div class="line zero"></div>
+                                    <div class="line one"></div>
+                                    <div class="line two"></div>
+                                    <div class="line three"></div>
+                                    <div class="line four"></div>
+                                    <div class="line five"></div>
+                                    <div class="line six"></div>
+                                    <div class="line seven"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
 
-<app-navebar></app-navebar>
-<!-- <app-footer></app-footer> -->
+
+                    <div class="do-item do-item-circle do-circle" *ngIf="blocks">
+                        <img src="../../assets/image/by_item.jpg" class="do-item do-circle">
+                        <div class="do-info-wrap do-circle">
+                            <div class="do-info">
+                                <div class="do-info-front do-circle"></div>
+                                <div class="do-info-back do-circle">
+                                    <h3>By Item</h3>
+                                    <div>Search
+                                        <br /> By Item</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
