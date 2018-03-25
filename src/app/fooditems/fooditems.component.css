@@ -65,7 +65,7 @@ header.masthead{
   }
   
   .do-info h3 {
-    color: #fff;
+    color: rgb(253, 253, 253);
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 14px;
@@ -97,7 +97,7 @@ header.masthead{
   }
 
   .bg{
-          background-image:url(../../assets/image/bg.jpg);background-repeat:no-repeat;
+          background-image:url(../../assets/image/bg1.jpg);background-repeat:no-repeat;
           height: 637px;
   }
   
@@ -112,7 +112,7 @@ body{
  	font-family: 'Roboto';
 	font-weight:500;
 	text-transform: uppercase;
-	color: white;
+	color: rgb(0, 0, 0);
 	overflow: hidden;
 	height:100%;
 }
@@ -160,7 +160,7 @@ label:before {
     content: "";
     width: 15px;
     height: 15px;
-    background: #fff;
+    background: rgb(255, 255, 255);
     position: absolute;
     left: 7px;
 		top: calc(50% - 13px);
